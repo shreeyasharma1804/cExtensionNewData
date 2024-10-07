@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Refresh",
+  "version": "1.0",
+  "description": "Refresh the page every 10 seconds.",
+  "permissions": ["tabs", "storage", "scripting"],
+  "host_permissions": ["https://*/*", "http://localhost/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons8-inactive-48.png"
+    }
+  }
+}

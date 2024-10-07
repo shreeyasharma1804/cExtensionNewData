@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-notifier": "^10.0.1",
+    "nodemailer": "^6.9.14"
+  }
+}
